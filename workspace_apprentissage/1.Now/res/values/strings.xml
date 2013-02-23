@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FirstApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="bouton">Clic!</string>
+    <string name="TextView">Date</string>
+    <string name="checkbox">Case à cocher</string>
+
+</resources>

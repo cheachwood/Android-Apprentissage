@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TabProjectActivity!</string>
+    <string name="app_name">Projet avec tableau à onglets</string>
+    <string name="songs_activity">Chansons</string>
+    <string name="albums_activity">Albums</string>	
+	<string name="artists_activity">Artistes</string>
+	<string name="menu_creer_contact">Créer contact</string>
+</resources>

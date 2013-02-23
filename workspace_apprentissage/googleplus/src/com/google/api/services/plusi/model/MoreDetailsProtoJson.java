@@ -1,0 +1,23 @@
+package com.google.api.services.plusi.model;
+
+import com.google.android.apps.plus.json.EsJson;
+
+public final class MoreDetailsProtoJson extends EsJson<MoreDetailsProto>
+{
+  static final MoreDetailsProtoJson INSTANCE = new MoreDetailsProtoJson();
+
+  private MoreDetailsProtoJson()
+  {
+    super(MoreDetailsProto.class, new Object[] { MoreDetailsProtoProviderDetailsJson.class, "providerDetail", DetailProtoJson.class, "summaryDetail", StoryTitleJson.class, "title" });
+  }
+
+  public static MoreDetailsProtoJson getInstance()
+  {
+    return INSTANCE;
+  }
+}
+
+/* Location:           C:\Dev\Java\android\adt-bundle-windows\workspace\googleplus\classes_dex2jar.jar
+ * Qualified Name:     com.google.api.services.plusi.model.MoreDetailsProtoJson
+ * JD-Core Version:    0.6.2
+ */

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <fragment
+        android:id="@+id/fragment_haut"
+        android:name="fr.jcf.fragments.montutoriel.fragments.FragmentHaut"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60" />
+
+   <fragment
+        android:id="@+id/fragment_bas"
+        android:name="fr.jcf.fragments.montutoriel.fragments.FragmentBas"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60" />
+
+</LinearLayout>
